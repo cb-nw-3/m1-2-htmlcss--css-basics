@@ -1,10 +1,12 @@
 .title {
     text-align: center;
+    margin: 0;
 }
 
 .subtitle {
     text-align: center;
     font-size: 24px;
+    margin: 0;
 }
 
 .content {
