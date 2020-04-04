@@ -35,21 +35,22 @@ h2 {
 
 h3 {
 	font-size: 30px;
-	margin: 20px 10px 0 0;
+	margin: 20px 0px 20px 0px;
 }
 
 /* my flex container */
 .row, .item{
 	display: flex;
+	position: relative;
 	list-style-type: none;
 	padding: 20px;
 	width:100%;
 }
 
-.item {
+/* .item {
 	justify-content: space-between;
 	display: flex;
-}
+} */
 
 /* my flex items */
 .col{
