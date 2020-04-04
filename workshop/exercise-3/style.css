@@ -1,1 +1,27 @@
 /* ...crickets... */
+@import
+url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
+
+*{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+.subtitle{
+    font-size: 2.4em;
+}
+
+.content{
+    text-align: left;
+    font-family: 'Comic Neue';
+    font-size: 1.2em;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.emph{
+    font-style: italic;
+}

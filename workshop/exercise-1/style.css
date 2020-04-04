@@ -1,3 +1,22 @@
+/*option 1
 button {
-  /* Styles here */
+  background: blue;
+  color: white;
+  border: 0;
+  height: 100px;
+  width: 180px;
+  border-radius: 11%;
+  font-size: x-large;
+  font-weight: 450;
+}*/
+
+/*option 2*/
+button {
+  background: blue;
+  color: white;
+  border: 0;
+  padding: 45px 75px;
+  border-radius: 15%;
+  font-size: x-large;
+  font-weight: 450;
 }
