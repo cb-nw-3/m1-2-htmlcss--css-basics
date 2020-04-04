@@ -10,3 +10,45 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding: 25px;
+}
+
+h1, h2 {
+	font-style: italic;
+	font-weight: 900;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.row {
+	list-style-type: none;
+}
+
+.col {
+	margin-right: 1.5rem;
+	text-align: center;
+	float: left;
+	border: 1px dashed grey;
+	padding: 10px;
+	background-color: lightgray;
+}
+
+.image {
+	max-height: 150px;
+}
+
+.section {
+	display: inline-block;
+	margin-bottom: 25px;
+}
