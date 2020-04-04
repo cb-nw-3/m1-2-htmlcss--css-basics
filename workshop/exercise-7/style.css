@@ -10,3 +10,42 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+	text-transform: uppercase;
+	font-family: "Bangers", cursive;
+	margin: 10px;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	margin: 15px 0;
+}
+
+p {
+	text-align: center;
+	margin: 10px;
+}
+
+img {
+	height: 80px;
+}
+
+.section {
+	margin: 10px;
+}
+
+article {
+	background: #e6eef5;
+	border: 2px dashed lightgrey;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+.row {
+	display: flex;
+}

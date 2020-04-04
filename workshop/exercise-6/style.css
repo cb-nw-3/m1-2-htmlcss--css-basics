@@ -12,29 +12,38 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+	text-transform: uppercase;
+	font-family: 'Bangers', cursive;
 }
 
 h1, h2 {
-    
+	text-align: center;
 }
 
 h1 {
-
+	font-size: 2em;
+	margin-top: 35px;
 }
 
 h2 {
-
+	margin-bottom: 10px;
 }
 
 .row {
-
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .col {
-
+	margin: 35px;
+	padding: 15px;
+	border: 1px dashed grey;
+	background: lightgray;
+	list-style-type: none;
 }
 
 .image {
-
+	height: 120px;
 }
