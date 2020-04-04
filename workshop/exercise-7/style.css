@@ -39,14 +39,14 @@ h3 {
 }
 
 /* my flex container */
-.row, .row-item{
+.row, .item{
 	display: flex;
 	list-style-type: none;
 	padding: 20px;
 	width:100%;
 }
 
-.row-item {
+.item {
 	justify-content: space-between;
 	display: flex;
 }
