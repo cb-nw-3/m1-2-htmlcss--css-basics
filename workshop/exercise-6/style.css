@@ -12,29 +12,37 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+	text-align: center;
 }
 
 h1, h2 {
-    
+	font-weight: 600;
+	font-style: italic;
+	text-transform: uppercase;
 }
 
 h1 {
-
+	font-size: 2.5em;
 }
 
 h2 {
-
+	font-size: 1.2em;
 }
 
 .row {
-
+	display: flex;
+	list-style-type: none;
+	margin-top: 30px;
 }
 
 .col {
-
+	background: lightgray;
+	padding: 10px;
+	border: 1px dashed;
+	margin: auto;
 }
 
 .image {
-
+	height: 150px;
+	margin-top: 10px;
 }
