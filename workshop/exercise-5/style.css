@@ -12,11 +12,11 @@ html, body, div, h1, h2, p, ul, li {
 /* Corrupted CSS below */
 /* ------------------- */
 body {
-    background: rgb(233, 231, 231);
+    background: #eaeaee;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 24px;
     max-width: 600px;
-    margin: 0;
+    margin: 0 auto;
     padding: 32px;
 
 }
@@ -39,7 +39,6 @@ h1, h2 {
 }
 
 .content {
-    font-style: bold;
     border: 5px;
     margin: 48px;
     font-size: 20px;
@@ -57,9 +56,7 @@ h1, h2 {
     list-style-type: square;
 }
 
-.first {
-    color:;
-}
+
 
 .second {
     font-weight: bold;
