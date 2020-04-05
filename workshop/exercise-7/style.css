@@ -10,3 +10,49 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+h1, h2, h3{
+	font-family: 'Bangers', cursive;
+}
+
+h1{
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.image{
+	height: 200px;
+	padding: 10px;
+}
+
+.row1{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.row2{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.row3{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
+li{
+	border: grey dashed;
+	margin: 10px;
+	padding: 5px;
+	background: lightgrey;
+	list-style-type: none;
+}
+
+ul{
+	text-align: center;
+}
