@@ -1,5 +1,7 @@
 img {
   max-width: 300px;
+  display: flex;
+  
 }
 
 .img1 {
@@ -7,13 +9,21 @@ img {
 }
 
 .img2 {
+  
+  visibility: hidden;
 
 }
 
 .img3 {
 
+  visibility: hidden;
+
 }
 
 .img4 {
 
+}
+
+.container{
+  display: flex;
 }
