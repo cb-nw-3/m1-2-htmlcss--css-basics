@@ -1,7 +1,61 @@
+:root {
+  --color-text: #FFF;
+  --color-front:darkblue;
+  --color-back:gray;
+  --color-front-before: blue;
+}
+
 body {
   padding: 40px;
 }
 
+
 button {
-  /* Solve me */
+  background:var(--color-front-before);
+  color: var(--color-text);
+  border: 0;
+  padding: 45px 75px;
+  border-radius: 5.5%;
+  font-size: x-large;
+  font-weight: 450;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 0px)
 }
+
+
+button:hover {
+  background: var(--color-front);
+  padding: 42px 58px;
+  color: palevioletred;
+  font-size: xx-large;
+  outline: none;
+}
+
+button:focus {
+  position: relative;
+  display: inline-block;
+  border-radius: 6px;
+  clip-path: polygon(20px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 20px);
+  background: var(--color-front);
+  padding: 40px 70px;
+  margin: 0 8px;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-text);
+  transition: clip-path 250ms;
+}
+
+button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: var(--color-back);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
+  border-radius: 0 0 6px 0;
+  transition: transform 200ms;
+}
+
+
+

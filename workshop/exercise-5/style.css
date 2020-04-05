@@ -18,7 +18,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 32px;
-    /* border: 2px solid black; */
+    /* border: 2px solid black;  */
 }
 
 h1, h2 {
@@ -38,9 +38,11 @@ h1, h2 {
 }
 
 .content {
+    margin: 0 auto;
+    margin-top: 48px;
+    /* border: 2px solid red; */
     background-color: white;
     border-radius: 5px;
-    margin-top: 48px;
     max-width: 500px;
     padding-left: 20px; 
 }

@@ -12,29 +12,38 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+	margin: 0 auto;
+	text-align: center;
 }
 
 h1, h2 {
-    
+    font-family: Bangers;
 }
 
 h1 {
-
+	font-size: 3em;
+	padding: 40px;
 }
 
 h2 {
-
+	font-size: 2em;
+	padding: 15px 0 15px;
 }
 
 .row {
-
+	display: flex;
+	justify-content: center;
 }
 
 .col {
-
+	border: 2px dashed black;
+	background-color: gainsboro;
+	margin: 0 2%;
+	list-style: none;
 }
 
 .image {
-
+	height: 200px;
+	padding: 0px 20px 20px;
 }
+
