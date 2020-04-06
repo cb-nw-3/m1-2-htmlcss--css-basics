@@ -10,3 +10,66 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+
+
+h1, h2, h3 
+{
+	font-family:  'Bangers', cursive;
+}
+
+
+h1
+{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+h2
+{
+	font-size: 25px;
+}
+
+
+h1, h3
+{
+	text-align: center;
+}
+
+.section
+{
+	margin: 15px;
+}
+
+.row
+{
+	display: flex;
+	list-style-type: none;
+}
+
+.col
+{
+	padding: 20px;
+	border: 2px;
+	border-color: darkgray;
+	border-style: dashed;
+	background-color: lightgray;
+	/*marging top, right, bottom, left - this gives us space in between each row too */
+	margin: 10px 20px 10px 0;
+
+}
+
+
+.images
+{
+	display: flex;	
+	justify-content: space-between;
+
+
+}
+.image
+{
+	max-height: 150px;
+	border-radius: 6px;
+	margin: 0 5px;
+
+}
