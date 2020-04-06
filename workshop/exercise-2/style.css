@@ -1,15 +1,17 @@
 p {
-
 }
 
 .one {
-
+  background-color: pink;
+  margin: 0px;
 }
 
 .two {
-
+  background-color: fuchsia;
+  margin: 0px;
 }
 
 .three {
-
+  font-size: 5em;
+  margin: 0px;
 }

@@ -1,33 +1,32 @@
-#centered {
-    text-align: center;
+#title {
+  text-align: center;
+  font-size: 3em;
 }
 
-.title {
-    font-size: 3rem;
-}
-
-subtitle {
-    font-size: 1.5rem;
+#subtitle {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .div {
-    background-color: gray;
-}
-
-#li {
-    list-style-type: none;
+  background-color: gray;
 }
 
 #content {
-    text-decoration: underline;
-    background: grey;
+  text-decoration: underline;
+  background: grey;
+  font-family: monospace;
+  font-size: 1em;
+  font-style: bold;
 }
 
-monospaced {
-    font-family: monospace;
+ul {
+  list-style-type: none;
 }
 
-h1, p, h2 {
-    background: grey;
-    margin: 0;
+h1,
+p,
+h2 {
+  background: grey;
+  margin: 0;
 }
