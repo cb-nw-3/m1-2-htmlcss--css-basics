@@ -1,15 +1,21 @@
 p {
-
+  /* unnecessary*/
+  color: black;
 }
 
 .one {
-
+  background: lightpink;
+  margin-bottom: 0px;
 }
 
 .two {
-
+  background: fuchsia;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .three {
-
+  font-size: 5em;
+  padding-top: 0px;
+  margin-top: 0px;
 }

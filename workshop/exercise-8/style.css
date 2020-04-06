@@ -1,19 +1,23 @@
+.container {
+  display: flex;
+}
+
 img {
   max-width: 300px;
 }
 
 .img1 {
-
 }
 
 .img2 {
-
+  visibility: hidden;
 }
 
 .img3 {
-
+  visibility: hidden;
 }
 
 .img4 {
-
+  max-height: 300px;
+  align-self: flex-end;
 }
