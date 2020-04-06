@@ -1,15 +1,21 @@
+body {
+  background-color: white;
+  padding: 0.1%;
+  width: 45%;
+}
 p {
-
+  background-color: white;
+  margin: 0;
 }
 
 .one {
-
+  background-color: pink;
+  margin: 0px;
 }
-
 .two {
-
+  background-color: fuchsia;
+  margin: 0px;
 }
-
 .three {
-
+  font-size: 5em;
 }
