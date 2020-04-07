@@ -3,18 +3,30 @@ img {
   }
   
   .img1 {
+    position:relative;
+    z-index:2;
+    
   
   }
   
   .img2 {
-  
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    
   }
   
   .img3 {
+    position:fixed;
+    top:50%;
+    left:50%
   
   }
   
   .img4 {
-  
+    position:absolute;
+    right:0;
+    bottom:0;
   }
   
