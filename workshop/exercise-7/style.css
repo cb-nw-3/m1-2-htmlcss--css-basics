@@ -10,3 +10,44 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+body{
+	font-family:"Bangers", cursive;
+	text-transform: capitalize;
+	margin: 30px;
+}
+
+h1{
+	font-size:45px;
+	text-align: center;
+}
+
+
+h2{
+	font-size:24px;
+	margin-bottom: 15px;
+	margin-top: 15px; 
+}
+
+h3{
+	text-align:center;
+}
+
+.row{
+	display: flex;
+	list-style-type:none;
+}
+
+.box{
+	background-color: gainsboro;
+	border: 4px black dashed;
+	padding:10px;
+	padding-top:30px;
+	margin-right:10px;
+}
+
+img{
+	height:130px;
+}
+.images img{
+	margin-right:6px;
+}
