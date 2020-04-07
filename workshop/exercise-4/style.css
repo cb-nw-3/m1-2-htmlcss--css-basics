@@ -1,33 +1,38 @@
-#centered {
-    text-align: center;
+.centered {
+  text-align: center;
+  font-family: "Times New Roman";
 }
 
-.title {
-    font-size: 3rem;
-}
-
-subtitle {
-    font-size: 1.5rem;
+p {
+  font-size: 1rem;
 }
 
 .div {
-    background-color: gray;
+  font-family: serif;
 }
 
-#li {
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-#content {
-    text-decoration: underline;
-    background: grey;
+.content {
+  text-decoration: underline;
+  background: grey;
 }
 
-monospaced {
-    font-family: monospace;
+.monospaced {
+  font-family: monospace;
+  background: grey;
+  text-decoration: underline;
 }
 
-h1, p, h2 {
-    background: grey;
-    margin: 0;
+h1,
+p,
+h2 {
+  background: grey;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 0.8rem;
 }
