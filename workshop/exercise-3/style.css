@@ -1,1 +1,24 @@
 /* ...crickets... */
+.title {
+  font-family: comic "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+.subtitle {
+  font-family: comic "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+.content {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.emph {
+  font-style: italic;
+}
