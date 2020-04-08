@@ -3,5 +3,28 @@ body {
 }
 
 button {
-  /* Solve me */
+  background-color: blue;
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+button:hover {
+  background-color: darkblue;
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+button:active {
+  background-color: darkblue;
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.8rem;
 }

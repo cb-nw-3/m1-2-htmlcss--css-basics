@@ -1,61 +1,58 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* Corrupted CSS below */
 /* ------------------- */
-b*** {
-    bac******d: #eaeaee;
-    ****-**mily: 'Yanone Kaffeesatz', sans-serif;
-    ***t-si*e: 24px;
-    max-*****: 600px;
-    margin: 0 ****;
-    padding: 32**;
+body {
+  background-color: lightgray;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px;
 }
 
-h1, h2 {
-    $#%$#^#$%#$%: 'Bangers', cursive;
+h1,
+h2 {
+  font-family: "Bangers", cursive;
 }
 
-#h2 {
-    text-decoration: underline;
+.h2 {
+  text-decoration: underline;
 }
 
 .centered {
-    text*****n: centre;
+  text-align: center;
 }
 
 .title {
-    ***t-size: 48px;
+  font-size: 48px;
 }
 
 .content {
-    ......................;
-    ...........: 5px;
-    ............: 48px;
-    ........: 20px;
-}
-
-.content ul {
-    margin-top: .....;
-    padding-left: .....;
+  background-color: white;
+  margin-top: 25px;
+  margin-left: 70px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .element {
-    list-*****-type: square;
-}
-
-.first {
-    color: #ffffff;
-}
-
-.second {
-    font-weight: cold;
+  list-style-type: square;
+  list-style-position: inside;
 }
