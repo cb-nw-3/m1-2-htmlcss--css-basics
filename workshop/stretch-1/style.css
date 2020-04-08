@@ -1,7 +1,22 @@
 body {
-  padding: 40px;
+    padding: 40px;
+    text-align: center;
 }
 
 button {
-  /* Solve me */
+    padding: 100px 200px;
+    background: #4462bd;
+    color: white;
+    font-size: 48px;
+    border-radius: 24px;
+    transition: transform 0.4s ease-in;
+}
+
+button:focus {
+    outline: none;
+    background: darkblue;
+}
+
+button:active {
+    transform: scale(0.85);
 }
