@@ -1,33 +1,47 @@
-#centered {
-    text-align: center;
+.centered {
+  text-align: center;
 }
 
 .title {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 subtitle {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .div {
-    background-color: gray;
+  background-color: gray;
+  opacity: 0.5;
 }
 
-#li {
-    list-style-type: none;
+#li,
+#first-element,
+#second-element {
+  list-style-type: none;
 }
 
-#content {
-    text-decoration: underline;
-    background: grey;
+#content > * {
+  margin: 0;
+  text-decoration: underline;
+  background: grey;
+  font-size: 1rem;
+  opacity: 0.7;
 }
 
 monospaced {
-    font-family: monospace;
+  font-family: monospace;
 }
 
-h1, p, h2 {
-    background: grey;
-    margin: 0;
+h1,
+p,
+h2 {
+  background: grey;
+  margin: 0;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+ul {
+  padding-top: 10px;
 }

@@ -1,12 +1,76 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  margin: 20px;
+}
+ul {
+  margin-top: 0;
 }
 
+h1,
+h2 {
+  font-family: "Bangers", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* ADD CSS BELOW */
+
+.rowCats {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.rowBig {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.rowBig li {
+  margin-right: 1%;
+}
+
+.image {
+  height: 100px;
+  border-radius: 5px;
+}
+
+.col {
+  background: #eaeaea;
+  border: 2px dashed #707070;
+  padding: 10px;
+}
+.col h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
