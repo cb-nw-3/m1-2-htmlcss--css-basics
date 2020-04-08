@@ -1,12 +1,73 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* ADD CSS BELOW */
+body {
+  text-align: center;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+  padding-top: 1rem;
+  font-style: "bangers", cursive;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+.row {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.col {
+  float: left;
+  background-color: lightgray;
+  border-color: gray;
+  border-style: dashed;
+  border-width: 0.2rem;
+  margin-left: 2rem;
+}
+
+.image {
+  max-width: 10rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.section2 {
+  clear: both;
+}
+
+.section3 {
+  clear: both;
+}
