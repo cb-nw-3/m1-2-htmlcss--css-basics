@@ -12,29 +12,52 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+margin: 32px;
 }
 
 h1, h2 {
-    
+	font-family: 'Bangers', cursive;
+  
 }
 
 h1 {
+	font-size: 48px;
+	text-align: center;
+	padding-bottom: 30px;
 
 }
 
 h2 {
+	font-size: 24px;
+	text-align: center;
+    margin-bottom: 20px;
 
 }
 
 .row {
+	display: flex ;
+	flex-direction: row ;
+	justify-content: space-around;
 
 }
 
 .col {
-
+	padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-width: 1px;
+	border-style: dashed;
+	border-color: rgb(88, 87, 87);
+	background-color: rgb(193, 188, 188);
+	
 }
 
 .image {
+	object-fit: contain;
+	height: 150px;
+}
 
+ul {
+	list-style: none;
 }
