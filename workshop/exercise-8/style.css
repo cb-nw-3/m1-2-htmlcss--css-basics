@@ -3,17 +3,17 @@ img {
 }
 
 .img1 {
-
+   display: flex;
 }
 
 .img2 {
-
+   visibility: hidden;
 }
 
 .img3 {
-
+   visibility: hidden;
 }
 
 .img4 {
-
+   display: flexS;
 }

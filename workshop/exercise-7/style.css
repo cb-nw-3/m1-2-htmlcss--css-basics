@@ -9,4 +9,47 @@ html, body, div, h1, h2, p, ul, li {
 	vertical-align: baseline;
 }
 
+body{
+   margin: 40px;
+}
+
+h1,h2,h3{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+h3{
+	font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+row{
+	list-style-type:none;
+	display: flex;
+}
+
+col{
+	background: white;
+	border: 2px dashed gray;
+	margin: 20px;
+	padding: 10px;
+}
+
+images{
+	display: flex;
+}
+
+
+
+
 /* ADD CSS BELOW */

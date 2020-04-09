@@ -1,3 +1,8 @@
 button {
-  /* Styles here */
+  border :10px;
+  background: blue;
+  color:white;
+  padding:20px 40px;
+  border-radius: 10px;
+
 }

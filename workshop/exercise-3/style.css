@@ -1,1 +1,16 @@
-/* ...crickets... */
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 2em;
+    text-align: center;
+}
+
+.content{
+    font-family: Arial;
+}
+
+.emph{
+    font-style: italic;
+}
