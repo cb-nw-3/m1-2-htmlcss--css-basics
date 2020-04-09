@@ -12,29 +12,39 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
+	margin: auto;
 
 }
 
 h1, h2 {
-    
+	font-family: "Bangers";
+	text-align: center;
 }
 
 h1 {
-
+	font-size: 50px;
+	margin: 25px;
 }
 
 h2 {
-
+	font-size: 25px;
+	margin: 10px;
 }
 
 .row {
-
+	display:flex;
+	list-style-type: none;
+	justify-content: space-around;
 }
 
 .col {
-
+	background-color: lightgrey;
+	border-style: dashed;
+	border-color: grey;
+	border-width: 3px;
+	padding: 20px;
 }
 
 .image {
-
+	height: 200px;
 }
