@@ -1,6 +1,13 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -12,29 +19,39 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+	text-align: center;
+	margin: 40px;
 }
 
-h1, h2 {
-    
+h1,
+h2 {
+	font-family: "Bangers", sans-serif;
+	color: black;
 }
 
 h1 {
-
+	font-size: 40px;
+	margin: 32px;
 }
 
 h2 {
-
+	font-size: 20px;
 }
 
 .row {
-
+	display: flex;
+	justify-content: space-between;
 }
 
 .col {
-
+	background-color: #DCDCDC;
+	border-color: black;
+	border-style: dashed;
+	border-width: 1px;
+	list-style-type: none;
+	padding: 40px;
 }
 
 .image {
-
+	height: 200px;
 }

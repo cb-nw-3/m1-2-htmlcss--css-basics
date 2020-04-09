@@ -1,6 +1,13 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -10,3 +17,49 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+	margin: 40px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Bangers", sans-serif;
+	color: black;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin: 35px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.image {
+	height: 100px;
+}
+
+.row {
+	display: flex;
+}
+
+.col {
+	background-color: #DCDCDC;
+	border-color: black;
+	border-style: dashed;
+	border-width: 2px;
+	list-style-type: none;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 40px;
+}
