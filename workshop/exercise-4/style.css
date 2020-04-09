@@ -1,33 +1,36 @@
-#centered {
-    text-align: center;
+h1,
+p,
+h2,
+div {
+  margin: 0;
+}
+.centered {
+  text-align: center;
 }
 
-.title {
-    font-size: 3rem;
+#title {
+  background-color: grey;
+  font-size: 3rem;
 }
 
-subtitle {
-    font-size: 1.5rem;
+#subtitle {
+  font-size: 1.5rem;
+  background-color: gray;
 }
 
-.div {
-    background-color: gray;
+div {
+  background-color: gray;
 }
 
-#li {
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
 #content {
-    text-decoration: underline;
-    background: grey;
+  text-decoration: underline;
+  background: grey;
 }
 
-monospaced {
-    font-family: monospace;
-}
-
-h1, p, h2 {
-    background: grey;
-    margin: 0;
+.monospaced {
+  font-family: monospace;
 }
