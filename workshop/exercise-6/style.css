@@ -1,40 +1,65 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* ADD CSS BELOW */
 
 body {
-
+  background: #eaeaee;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-h1, h2 {
-    
+h1,
+h2 {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  font-style: oblique;
+  text-transform: uppercase;
 }
 
 h1 {
-
+  text-align: center;
+  font-size: 3em;
 }
 
 h2 {
-
+  text-align: center;
+  font-size: 2em;
 }
 
 .row {
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .col {
-
+  display: inline-block;
+  background-color: lightgray;
+  position: relative;
+  height: 350px;
+  width: 400px;
+  border: 2px dashed black;
 }
 
 .image {
-
+  display: block;
+  height: 250px;
+  width: 350px;
+  padding: 10px;
+  margin: auto;
 }
