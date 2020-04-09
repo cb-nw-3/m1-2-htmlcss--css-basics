@@ -12,29 +12,37 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+    margin: 30px;
 }
 
 h1, h2 {
-    
+   font-family: Arial, Helvetica, sans-serif; 
 }
 
 h1 {
-
+   font-size: 50px;
+   text-align: center;
+   margin-bottom: 20em;
 }
 
 h2 {
-
+	font-size: 25px;
+	text-align: center;
+	margin-bottom:15em;
 }
 
 .row {
-
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
 }
 
 .col {
-
+   background: white;
+   border: gray 2px dashed;
+   padding: 10px;
 }
 
 .image {
-
+   height: 50px;
 }
