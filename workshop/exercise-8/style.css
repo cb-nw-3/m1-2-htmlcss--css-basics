@@ -2,18 +2,27 @@ img {
   max-width: 300px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 .img1 {
 
 }
 
 .img2 {
-
+  visibility: hidden;
+ 
 }
 
 .img3 {
-
+  
+  
 }
 
 .img4 {
+  visibility: hidden;
 
 }
