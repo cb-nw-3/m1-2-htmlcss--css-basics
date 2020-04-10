@@ -3,5 +3,23 @@ body {
 }
 
 button {
-  /* Solve me */
+background: blue;
+color: white;
+padding: 20px 30px;
+border-radius: 15px;
+transition: transform 300ms;
+outline: none;
+}
+
+/* just to try hover! */
+button:hover {
+ background: red;
+}
+
+button:active {
+  transform: scale(1);
+}
+
+button:focus {
+  background: teal;
 }
