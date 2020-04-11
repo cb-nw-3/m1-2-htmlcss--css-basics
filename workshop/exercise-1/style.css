@@ -1,3 +1,17 @@
 button {
-  /* Styles here */
+  padding: 20px;
+  border: none;
+  background: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+button:focus {
+  background-color: darkblue;
 }
