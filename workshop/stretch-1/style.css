@@ -3,5 +3,21 @@ body {
 }
 
 button {
-  /* Solve me */
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:active {
+  transform: scale(.9);
+  transition: all 0.5s;
+}
+
+button:focus {
+  background-color: darkblue;
 }

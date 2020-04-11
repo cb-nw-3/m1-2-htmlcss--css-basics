@@ -6,7 +6,55 @@ html, body, div, h1, h2, p, ul, li {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline;	
 }
 
 /* ADD CSS BELOW */
+
+body {
+  margin: 28px;
+}
+
+h1, h2, p {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 20px 0 20px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.col {
+  margin-right: 20px;
+  padding: 20px;
+  background-color: lightgrey;
+  border: 2px;
+  border-style: dashed;
+  border-color: lightslategray;
+  border-radius: 5px;
+}
+
+.image {
+  height: 200px;
+  margin: 5px;
+  border-radius: 5px;
+}

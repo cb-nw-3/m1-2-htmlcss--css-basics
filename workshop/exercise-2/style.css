@@ -1,15 +1,16 @@
 p {
-
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .one {
-
+  background: pink;
 }
 
 .two {
-
+  background: fuchsia;
 }
 
 .three {
-
+  font-size: 5em;
 }
