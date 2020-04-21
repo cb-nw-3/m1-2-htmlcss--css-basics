@@ -5,13 +5,13 @@ img {
 .img1 {
 
 }
-
+/* only hide the 3rd image, 2nd one gets removed */
 .img2 {
-
+  display: none;
 }
 
 .img3 {
-
+  visibility: hidden;
 }
 
 .img4 {

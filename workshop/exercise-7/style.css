@@ -7,6 +7,55 @@ html, body, div, h1, h2, p, ul, li {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	/* added font family */
+	font-family: "Bangers", "cursive";
 }
 
 /* ADD CSS BELOW */
+
+img {
+	height: 200px;
+	min-width: auto;
+	padding: 10px; /*space between images in the same flex box */
+	border-radius: 20px;
+	border: 5px hotpink; /* why doesnt my image have a border? */
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+	margin: 20px 0px 20px 0px;
+}
+
+/* my flex container */
+.row, .item{
+	display: flex;
+	position: relative;
+	list-style-type: none;
+	padding: 20px;
+	width:100%;
+}
+
+/* .item {
+	justify-content: space-between;
+	display: flex;
+} */
+
+/* my flex items */
+.col{
+	background-color:lightgray;
+	border: 2px dashed;
+	margin: 20px;
+	padding: 20px;
+}

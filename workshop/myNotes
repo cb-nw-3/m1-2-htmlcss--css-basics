@@ -1,0 +1,23 @@
+# These are my notes
+
+Week 2 – Lecture 2 – Saturday
+Learning CSS
+•	<label> and <input> tags should go together and their attributes should include for and id respectively, so that when users mouse over the field’s name it will move the cursor onto the field. Also helps keep form input organized.
+•	ID should be unique to tags, classes can be assigned to multiple tags, and multiple classes can also be assigned to a single tag
+o	You can also have an ID and class attribute on any class, but the above limits apply.
+o	CSS specified by ID will win over classes
+•	Selectors can be combined to specify the styling for combinations of tags using this type of declation:
+o	<tag>.<classname>{} instead of
+o	.<classname>{}
+o	<tag1> + <tag2> {} will style the tags that are next to each other
+Question: Can the Dev tool detect multiple conflicting classes/IDs being applied to a tag? 
+Answer: Yes! Crossed out style elements are unused, or not activated yet via Js.
+•	CSS specificity dictates that combined tag selectors will win over simple selectors, and inline styling applied in HTML will beat any CSS styling on a different sheet or in a <style> tag
+o	The !important comment besides CSS styling, will beat any specificity
+
+Random Fact: Ctrl + / to comment out code in any file format
+#Tips: use this for more logical box models, box sizes will be as per w x h properties, not including padding or margin.
+
+* {
+Box-sizing: border-box;
+}

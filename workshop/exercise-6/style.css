@@ -12,29 +12,43 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+	margin: 0;
+	padding: 0;
 }
 
 h1, h2 {
-    
+	/* font from linked page and prev ex5 */
+	font-family: 'Bangers', 'Yanone Kaffeesatz';
+	text-align: center;
 }
 
+/* change the font size and their padding around */
 h1 {
-
+	font-size: 50px;
+	padding: 20px;
 }
 
 h2 {
-
+	font-size: 25px;
+	padding: 20px;
 }
 
-.row {
-
+/* my flex container */
+.row{
+	display: flex;
+	justify-content: space-between; /*allow spacing between flex items */
+	list-style-type: none; /* remove the bullet points */
 }
 
+/* my flex items */
 .col {
-
+	padding: 15px; /* space between content of img and h2 to border */
+	background-color: lightgray;
+	border: dashed grey 3px;
+	margin: 20px; /*space outside of border, also adjusts distance between flex items */
 }
 
+/* resize the images from their original*/
 .image {
-
+	height: 250px;
 }
